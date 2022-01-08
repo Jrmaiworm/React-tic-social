@@ -11,7 +11,7 @@ function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Login} />
+        <Route path="/" exact component={Login}  />
         <Route path="/home" exact component={Home} />
         <Route path="/cadastro" exact component={Cadastro} />
         <Route path="/recuperarSenha" exact component={RecuperarSenha} />
